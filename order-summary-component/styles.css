@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;;
+}
+main{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+h1{
+    margin: 5px;
+}
+.you{
+    margin: 0px;
+    color: hsl(224, 23%, 55%);
+}
+h3{
+    background-color: hsl(245, 75%, 52%);
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.proceed{
+    background-size: 200px;
+}
+.cancel{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.group{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+h2{
+    font-size: 13px;
+}
+.plan{
+    width: 70%;
+    margin: 10px;
+    text-align: justify;
+    padding-top: 5px;
+}
+button{
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    width: 75%;
+    padding: 10px;
+    box-shadow: 0px 30px 10px 0px hsl(225, 100%, 98%);
+    color: hsl(225, 100%, 98%);
+}
+.change{
+    padding-top: 20px;
+    padding-right: 20px; 
+    text-decoration: none;
+
+}
+.money{
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+.icon img{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.cancel p{
+    color: hsl(224, 23%, 55%);
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.image img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

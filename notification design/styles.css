@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  column-gap: 10px;
+  background-color: rgb(248, 241, 241);
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+.general {
+  background-image: url(img/20230309_235333.jpg);
+  width: 100%;
+  text-align: end;
+  height: 200px;
+  padding-top: 20px;
+}
+.first {
+  color: white;
+}
+.website {
+  color: yellowgreen;
+}
+section {
+  background-color: rgb(248, 241, 241);
+}
+.service {
+  text-align: center;
+  padding-top: 15px;
+}
+section.complete {
+  display: flex;
+  height: 250px;
+  padding: 0 5rem;
+}
+.lorem1 {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  margin: 10px;
+  line-height: 1.4;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+.lorem2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  line-height: 1.4;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+.lorem3 {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  margin: 10px;
+  line-height: 1.4;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+.about {
+  text-align: center;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+  height: 200px;
+  padding: 5px;
+}
+.placeat {
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+.img {
+  display: flex;
+  column-gap: 30px;
+  padding: 0 5rem;
+}
+.company {
+  width: 100%;
+  background-color: whitesmoke;
+}
+.ipsum {
+  padding: 10px;
+}
+span {
+  display: flex;
+  justify-content: space-between;
+}
+.login {
+  padding-top: 20px;
+}
+/**
+.txtb {
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.contact-form h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact-form {
+  background-color: rgb(116, 116, 255);
+}
+.txtb input {
+  width: 60%;
+  height: 30px;
+}
+.search input {
+  border: 1px solid gray;
+  margin: 8px 0;
+  width: 100%;
+  padding: 5px 5px;
+}
+.ref {
+  border: 2px solid black;
+  text-align: end;
+}
+**/
+.fxxt {
+  display: flex;
+  justify-content: space-between;
+}
+.firstform {
+  background: gray;
+  width: 50%;
+  padding: 50px;
+}
+.secondform {
+  background: gray;
+  width: 50%;
+  padding: 50px;
+}
+/**input {
+  width: 90%;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+}
+**/
+.search {
+  padding-top: 65px;
+}
+.firstform h2 {
+  padding: 10px;
+  text-align: center;
+  color: wheat;
+}
+.secondform h2 {
+  padding: 10px;
+  text-align: center;
+  color: wheat;
+}
+
+textarea {
+  width: 100%;
+}
+.firstform input {
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+}
+/**.secondform .me input {
+  width: 90%;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+}
+**/
+.stage input {
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+}
+button {
+  float: right;
+  border: 2px solid blue;
+  background: blue;
+  color: white;
+  margin-top: 10px;
+}

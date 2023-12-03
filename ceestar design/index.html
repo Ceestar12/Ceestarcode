@@ -1,0 +1,38 @@
+<!DOCTYPE html> <html lang="en"> 
+<head> <meta charset="UTF-8"><title>Survey Form</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <fieldset>
+<label for="name"id="name-label">Name<input id="name"type="text"name="name"required placeholder="Staney Oyathelemhi"></label>
+<label for="email"id="email-label">Email<input id="email"type="email"name="email"required placeholder="stanleymake9@gmail.com"></label>
+<label for="number"id="number-label">Age<input id="number"type="number"name="name"required placeholder="Age14-100"min="14"max="99"></label>
+<label for="dropdown">Which option matches your status?
+<select id="dropdown"><option value="">(select one)</option>
+<option value="1">under-graguate</option>  
+<option value="2">graduate</option>
+<option value="3">prefer not to say</option></label></select>
+</fieldset>
+<fieldset>
+<p>What Educational Qualification Do you Have?</p> 
+<label for="bsc">Bsc<input type="radio"id="bsc"name="qualification"class="inline"value="bsc"></label>
+<label for="hnd">Hnd<input type="radio"id="hnd"name="qualification"class="inline"value="hnd"></label>
+<label for="none">None of the Above<input id="none"type="radio"name="qualification"class="inline"value="none"></label>
+<p>What courses would you like to see improved?</p>
+<label for="account">Account<input type="checkbox"id="account"name="courses"class="inline"value="drugs"></label>
+<label for="medicine">Medicine<input type="checkbox"value="drugs"id="medicine"class="inline"></label>
+<label for="history"> History<input type="checkbox"name="courses"id="history"class="inline"value="drugs"></label>
+<label for="sociology">Sociology<input type="checkbox"name="courses"id="sociology"class="inline"value="sociology"></label>
+<label for="statistics">Statistics<input type="checkbox"id="statistics"name="courses"class="inline"value="drugs"></label>
+</fieldset>
+<fieldset>
+  <label>Suggestions on how to upgrade the institution courses<textarea type="text"id="suggestions"name="comments"rows="3"cols="30"placeholder="Add your suggestions"></textarea> </label>
+</fieldset>
+<input type="submit"id="submit"value="submit">
+
+</form>
+</body>
+</html>
